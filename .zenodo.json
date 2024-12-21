@@ -1,11 +1,20 @@
 {
-    "description": "<ul>\n<li>added references to CGM data simulators</li>\n<li>minor update to Chase2005 preprocessor</li>\n<li>update to Dubosson2008 preprocessor to only keep CGM readings (eliminates SMBG)</li>\n<li>update Buckhingham2007 preprocessor to filter for data quality issues (readings too small or too large)</li>\n<li>add R processor to Aleppo2017 in addition to already existing python processor</li>\n</ul>", 
+    "description": "<ul>\n<li>Added datasets: ‘Brown2019', ‘Wadwa2023’, ‘Broll2021’, ‘Shah2019’, each with a processing script including extra patient-level variable </li>\n<li>Updated ‘Buckingham2007’, ‘Colas2019’, and ‘Hall2018’ processor.</li>\n<li>Introduced a missing data/cleaning check script</li>\n<li>Added Shiny GUI for processors </li>\n</ul>", 
     "license": "other-open", 
-    "title": "irinagain/Awesome-CGM: Updated release of public CGM datasets with simulators and enhanced processing", 
-    "version": "v1.1.0", 
+    "title": "IrinaStatsLab/Awesome-CGM: Updated release with additional public CGM dataset and enhanced processing", 
+    "version": "v2.0.0", 
     "upload_type": "software", 
-    "publication_date": "2021-04-27", 
+    "publication_date": "2024-12-21", 
     "creators": [
+        {
+            "name": "Xinran Xu"
+        },
+        {
+            "name": "Neo Kok"
+        },
+        {
+            "name": "Junyan Tan"
+        },
         {
             "name": "Mary Martin"
         }, 
@@ -35,7 +44,7 @@
     "related_identifiers": [
         {
             "scheme": "url", 
-            "identifier": "https://github.com/irinagain/Awesome-CGM/tree/v1.1.0", 
+            "identifier": "https://github.com/IrinaStatsLab/Awesome-CGM/tree/v2.0.0", 
             "relation": "isSupplementTo"
         }, 
         {
